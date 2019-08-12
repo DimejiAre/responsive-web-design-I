@@ -80,6 +80,12 @@ body {
 	justify-content: space-evenly;
 }
 
+@media (min-width: 500px) {
+    .container {
+        max-width: 800px;
+    }
+}
+
 a {
 	text-decoration: none;
     color: gray;
@@ -106,6 +112,12 @@ a {
 	width: 200px;
     text-align: right;
     
+}
+
+@media (min-width: 500px) {
+    .page-navigation {
+        flex-direction: row;
+    }
 }
 
 .banner {
@@ -151,6 +163,12 @@ a {
     flex-direction: column;
 	justify-content: space-evenly;
 }
+
+@media (min-width: 500px) {
+    .section1 {
+        flex-direction: row;
+    }
+}
 .middle-img {
 	width: 100%;
 }
@@ -161,9 +179,14 @@ a {
     width: 100%;
 }
 
-
 .col {
 	padding: 20px 0;
+}
+
+@media (min-width: 500px) {
+    .section3 {
+        flex-direction: row;
+    }
 }
 
 .page-address {
