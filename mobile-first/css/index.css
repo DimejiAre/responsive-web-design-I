@@ -82,7 +82,8 @@ body {
 
 a {
 	text-decoration: none;
-	color: gray;
+    color: gray;
+    padding: 10px 0;
 }
 .page-header {
 	width: 100%;
@@ -94,7 +95,8 @@ a {
 
 .page-navigation {
 	width: 100%;
-	display: flex;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
